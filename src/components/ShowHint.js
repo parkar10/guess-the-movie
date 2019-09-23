@@ -21,7 +21,7 @@ export default function ShowHint(props) {
               </Modal.Header>
               <Modal.Body><h5> {props.hint} </h5></Modal.Body>
               <Modal.Footer>
-                <Button variant="danger" block> Hello </Button>
+                <Button variant="danger" block> -10 points </Button>
               </Modal.Footer>
             </Modal>
         </>
