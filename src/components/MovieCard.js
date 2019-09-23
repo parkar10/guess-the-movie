@@ -36,7 +36,7 @@ export class MovieCard extends Component {
         this.getMovieTitle()
     }
     componentDidMount(){
-        axios.get('https://0b7pn1bzld.execute-api.us-east-1.amazonaws.com/dev/movies')
+        axios.get('https://ukowhbd3o4.execute-api.us-east-1.amazonaws.com/dev/movies')
         .then(this.grabresponse)
         .catch(error => console.log(error))
     }
