@@ -11,7 +11,7 @@ export class MovieCard extends Component {
         super(props)
         this.state = {
             movie:{},
-            base_url:"https://0b7pn1bzld.execute-api.us-east-1.amazonaws.com/dev/movies",
+            base_url:"https://ukowhbd3o4.execute-api.us-east-1.amazonaws.com/dev/movies",
             movies:[],
             movie_title:"",
             isPlaying: 0,

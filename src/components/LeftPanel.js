@@ -39,7 +39,7 @@ export class LeftPanel extends Component {
                     <Card.Body>
                         <Card.Title><h2>Your Score <FontAwesomeIcon icon={faBullseye} /></h2></Card.Title>
                         <Card.Text><br/>
-                            <h5><b>Games Won:</b> {this.state.timesWon}</h5><br/>
+                            <h5><b>Games Played:</b> {this.state.timesWon}</h5><br/>
                             <h5><b>Total Score:</b> {this.state.score} {(this.state.scoreInThisRound==500)? <FontAwesomeIcon icon={faAward} />:""}</h5><br/>
                             <h5><b>Score in last round:</b> {this.state.scoreInThisRound} {(this.state.scoreInThisRound==100)? <FontAwesomeIcon icon={faFireAlt} />:""}</h5>
                         </Card.Text>
